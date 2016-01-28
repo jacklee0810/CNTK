@@ -75,7 +75,7 @@ cntkrun()
     CNTKArgs="$CNTKArgs stderr=$RunDir/$LogFileName"
   fi
 
-  modelsDir=$TEST_RUN_DIR/models
+  modelsDir=$TEST_RUN_DIR/Models
   if [[ $DeleteExistingModels == 1 ]]; then
     [ -d $modelsDir ] && rm -rf $modelsDir
   fi
